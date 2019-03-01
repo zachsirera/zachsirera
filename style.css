@@ -4,4 +4,22 @@
 
 #header {
 	text-align: center;
+	width: 100%;
+	background-color: #4C230A;
+	height: 100px;
+	color: #FAFAFA;
+
+}
+
+#container {
+	background-color: #FAFAFA;
+	position: relative;
+	margin-top: 25px;
+}
+
+#content {
+	background-color: #FAFAFA;
+	/*font-family: "embury-text", serif;*/
+	font-style: normal;
+	font-weight: 200;
 }
