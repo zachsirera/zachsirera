@@ -3,12 +3,14 @@
 }
 
 #header {
-	text-align: center;
 	width: 100%;
 	background-color: #4C230A;
 	height: 100px;
 	color: #FAFAFA;
+}
 
+.row {
+	margin-left: 100px;
 }
 
 #container {
