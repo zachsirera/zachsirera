@@ -5,7 +5,7 @@
 }
 
 #content {
-	background-color: #FAFAFA;
+	background-color: #F2F2F2;
 	/*font-family: "embury-text", serif;*/
 	font-style: normal;
 	font-weight: 200;
@@ -13,11 +13,12 @@
 
 #footer {
 	text-align: center;
+	height: 100%;
 }
 
 #header {
 	width: 100%;
-	background-color: #4C230A;
+	background-color: #202020;
 	height: 100px;
 	color: #FAFAFA;
 }
@@ -27,8 +28,28 @@
 	font-size: 48px;
 }
 
+#toolbar {
+	background-color: #333333;
+	color: #FAFAFA;
+	width: 100%;
+	height: 60px;
+}
 
+#github {
+	margin-top: 14px;
+	position: relative;
+	margin-right: -20px;
+}
 
+#linkedin {
+	margin-top: 13px;
+/*	margin-right:;*/
+}
+
+#logo {
+	margin-top: 6px;
+
+}
 
 
 .row {
@@ -37,5 +58,26 @@
 
 .card {
 	text-align: left;
+}
+
+.btn {
+	color: #FAFAFA;
+	margin-top: 2px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.btn:hover {
+	background-color: #4C4C4C;
+	color: #FAFAFA;
+	border-radius: 5px;
+} 
+
+.modal-body {
+	color: #000000;
+}
+
+.modal-title {
+	color: #000000;
 }
 
