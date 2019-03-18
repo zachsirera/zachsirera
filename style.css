@@ -48,8 +48,26 @@
 
 #logo {
 	margin-top: 6px;
-
 }
+
+#picture {
+	width: 200px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+#info {
+	display: inline-block;
+	position: relative;
+}
+
+/*#description {
+	display: inline-block;
+}*/
+
+/*#title {
+	display: inline-block;
+}*/
 
 
 .row {
@@ -79,5 +97,9 @@
 
 .modal-title {
 	color: #000000;
+}
+
+.about_row {
+	width: 100%;
 }
 
