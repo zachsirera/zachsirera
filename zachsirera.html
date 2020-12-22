@@ -92,6 +92,10 @@
                                                 </p>
                                                 <br>
                                                 <p> 
+                                                    Now I am pursuing a career in data analytics which better aligns with my interests and my skillset. 
+                                                </p>
+                                                <br>
+                                                <p> 
                                                     On this page you can see some of my personal projects so far. 
                                                 </p>
                                             </div>
@@ -101,28 +105,11 @@
                             </div>
                         </div>
                     </div>
-                    
-
-                    <!-- <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="contactModalLabel"> Contact </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
 
 
 
                     <!-- linkedin button -->
-                    <a style="padding-left: 10px;" id="linkedin" href="https://www.linkedin.com/in/zach-sirera-4b364a103/">
+                    <a style="padding-left: 10px;" id="linkedin" href="https://www.linkedin.com/in/zach-sirera/">
                         <img src="static/linkedin.png">
                     </a>
 
@@ -144,59 +131,62 @@
 
                 <br>
 
-                <div class="row">
+                <div class="card-deck">
 
                     <!-- 22_rl -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/22.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> 22_rl </h5>
-                                <p class="card-text"> Using Reinforcement Learning to determine the optimal strategy for the card game 22. </p>
-                                <p class="card-text"> Built entirely with <strong>Python</strong></p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/22.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> 22_rl </h5>
+                            <p class="card-text"> Using Reinforcement Learning to determine the optimal strategy for the card game 22. </p>
+                            <p class="card-text"> Exploring the surface of a card game and using Q Learning to deduce optimal moves at each possible state in the game.  </p>
+                            <p class="card-text"> 
                                 <a href="https://github.com/zachsirera/22_rl" class="btn btn-primary"> 
                                     Let's see it.
                                 </a>
-                                </p>
-                            </div>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> Built entirely with <strong>Python</strong> </small>
                         </div>
                     </div>
 
                     <!-- Trump Tweets -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/trump.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Trump Tweets </h5>
-                                <p class="card-text"> Using machine learning to visualize trends in President Trump's twitter behavior. </p>
-                                <p class="card-text"> Built with <strong> Python, D3, Flask, Heroku, </strong>and <strong>Bootstrap. </strong> </p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/trump.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Trump Tweets </h5>
+                            <p class="card-text"> Using machine learning to visualize trends in President Trump's twitter behavior. </p>
+                            <p class="card-text"> Employing a mutli-way, non-exclusive Naive Bayes classifier to group tweets into subject areas and then performing multiple different data visualizations on this aggregated data.</p>
+                            <p class="card-text"> 
                                 <a href="http://tweettrump.herokuapp.com/" class="btn btn-primary"> 
                                     Let's see it.
                                 </a>
-                                </p>
-                            </div>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> Built with <strong> Python, D3, Flask, Heroku, </strong>and <strong>Bootstrap. </strong> </small>
                         </div>
                     </div>
 
                     <!-- CFB Rankings -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/cfb_rankings.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Zach's CFB Rankings </h5>
-                                <p class="card-text"> A quantitative ranking system for NCAA FBS Football teams. </p>
-                                <p class="card-text"> Built with <strong> Python, Flask, Heroku, </strong>and <strong>Bootstrap. </strong> </p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/cfb_rankings.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Zach's CFB Rankings </h5>
+                            <p class="card-text"> A quantitative ranking system for NCAA FBS Football teams. </p>
+                            <p class="card-text"> Developing a custom algorithm for determining a team's ranking and using logistic regression to determine a team's win probability. </p>
+                            <p class="card-text"> 
                                 <a href="https://zachs-cfb-rankings.herokuapp.com/" class="btn btn-primary"> 
                                     Let's see it.
                                 </a>
-                                </p>
-                            </div>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> Built with <strong> Python, Flask, Heroku, </strong>and <strong>Bootstrap. </strong>  </small>
                         </div>
                     </div>
 
@@ -204,87 +194,112 @@
 
                 <br><br> 
 
-                <div class="row">
+                <div class="card-deck">
+
+                    <!-- Zach and Madi's Travels -->
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/zandmtravels.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Zach and Madi's Travels </h5>
+                            <p class="card-text"> An interactive webpage detailing our exploration of our new home. </p>
+                            <p class="card-text"> Creating an interactive, responsive full-stack web app to share photos and other details from our travels and other adventures with friends and family in a "one stop shop". </p> 
+                            <p class="card-text"> 
+                                <a href="http://zandmtravels.herokuapp.com" class="btn btn-primary"> 
+                                    Let's see it.
+                                </a>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> Built with <strong>Python, Flask, SQL,</strong> and <strong>Bootstrap.</strong>  </small>
+                        </div>
+                    </div>
 
                     <!-- Climbing Map -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/climbing_map.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Climbing Map </h5>
-                                <p class="card-text"> An interactive heatmap and climbing ticklist for the U.S. </p>
-                                <p class="card-text"> Built with <strong> Python </strong> and <strong>JavaScript. </strong></p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/climbing_map.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Climbing Map </h5>
+                            <p class="card-text"> An interactive heatmap and climbing ticklist for the U.S. </p>
+                            <p class="card-text"> Heatmap generated with data from the Mountain Project API overlayed with my personal climbing trips. </p>
+                            <p class="card-text"> 
                                 <a href="https://zachsirera.github.io/climbing-map/map.html" class="btn btn-primary"> 
                                     Let's see it.
                                 </a>
-                                </p>
-                            </div>
+                            </p>
                         </div>
-                    </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Built with <strong> Python </strong> and <strong>JavaScript.</strong></small>
+                        </div>
+                        </div>
 
 
                     <!-- Volcano -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/test_plot.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Volcano </h5>
-                                <p class="card-text"> A program to employ various pathfinder algorithms to traverse the Maunga Whau volcano. </p>
-                                <p class="card-text"> Built entirely with <strong> Python. </strong> </p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/test_plot.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Volcano </h5>
+                            <p class="card-text"> A program to employ various pathfinder algorithms to traverse the Maunga Whau volcano. </p>
+                            <p class="card-text"> 
                                 <a href="https://github.com/zachsirera/volcano" class="btn btn-primary"> 
-                                    Let's see it.
+                                    Work in Progress.
                                 </a>
-                                </p>
-                            </div>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Built entirely with <strong> Python.</strong></small>
                         </div>
                     </div>
 
-                    <!-- Time Tracker-->
-
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/time_tracker.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Time Tracker </h5>
-                                <p class="card-text"> A mobile app to track time spending for the purposes of analysis and visualization. </p>
-                                <p class="card-text"> Built with <strong> Ionic 4, Angular 6, HTML, and CSS. </strong> </p>
-                                <p class="card-text"> 
-                                <a href="#" class="btn btn-primary disabled" aria-disabled="true" disabled> 
-                                    Private Repo
-                                </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                 </div>
 
                 <br><br> 
                 
-                <div class="row">
+                <div class="card-deck">
 
 
                     <!-- Sembli -->
 
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="static/sembli.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"> Sembli </h5>
-                                <p class="card-text"> A full-stack group management app for tracking attendance for hosted events. </p>
-                                <p class="card-text"> Built with <strong> Ionic v4, Angular 6, </strong> and <strong> AWS </strong> services including <strong>S3, DynamoDB, and Amplify.</strong> </p>
-                                <p class="card-text"> 
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/sembli.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Sembli </h5>
+                            <p class="card-text"> A full-stack group management app for tracking attendance for hosted events. </p>
+                            <p class="card-text"> Using geofencing to allow members to mark themselves as "in attendance" for events. </p>
+                            <p class="card-text"> 
                                 <a href="#" class="btn btn-primary disabled" aria-disabled="true" disabled> 
                                     Private Repo
                                 </a>
-                                </p>
-                            </div>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Built with <strong> Ionic v4, Angular 6, </strong> and <strong> AWS </strong> services including <strong>S3, DynamoDB, and Amplify.</strong></small>
                         </div>
                     </div>
+
+                    <!-- Time Tracker-->
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="static/time_tracker.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Time Tracker </h5>
+                            <p class="card-text"> A mobile app to track time spending for the purposes of analysis and visualization. </p>
+                            <p class="card-text"> For the data-oriented or otherwise neurotic individual to keep track of how they are spending their time. </p>
+                            <p class="card-text"> 
+                            <a href="#" class="btn btn-primary disabled" aria-disabled="true" disabled> 
+                                Private Repo
+                            </a>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Built with <strong> Ionic 4, Angular 6, HTML, and CSS. </strong> </small>
+                        </div>
+                    </div>
+
                 </div>
 
 
